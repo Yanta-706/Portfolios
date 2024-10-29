@@ -2,43 +2,43 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaSquareXTwitter, FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { RiNextjsFill, RiTailwindCssFill, RiOpenaiFill, RiWordpressFill } from "react-icons/ri";
-import { SiTypescript, SiShadcnui, SiPrisma, SiWoocommerce, SiReact } from "react-icons/si";
+import { SiTypescript, SiShadcnui, SiPrisma, SiWoocommerce, SiReact, SiJavascript } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 
 export const siteConfig = {
-    name: "Alvin Chang",
-    title: "Alvin Chang | Full-Stack Developer",
-    email: "alvin@studioaurora.io",
-    alias: "Aurora",
-    description: "Alvin Chang is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Alvin creates digital solutions that are both functional and aesthetically pleasing.",
-    keywords: "Alvin Chang, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-    url: "https://alvinchang.dev",
+    name: "Evan Huang",
+    title: "Evan Huang | Front-End Developer",
+    email: "evan.huang000@proton.me",
+    alias: "Evan",
+    description: "Hello 👋 My name is Evan Huang I am an engineer specializing in web development, mastering HTML, CSS, JavaScript, Next.js and Python. I have strong programming and design skills, and currently focus on front-end development. My passion is to create outstanding digital experiences, and user experience is my biggest concern. As for the future development direction, I look forward to continuous learning and growth.",
+    keywords: "Evan Huang, front-end developer, web development, Next.js, Python, JavaScript",
+    url: "https://tech-huang.us.kg",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
         "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
     ],
-    titles: ["Full-Stack Developer", "NextJS Developer", "Wordpress Developer"],
+    titles: ["Front-End Developer", "NextJS Developer", "Python Developer"],
     socialLinks: [
         {
             icon: <FaGithub />,
-            url: "https://github.com/auroradream04",
+            url: "https://github.com/Dev-Huang1",
         },
-        {
+        /*{
             icon: <FaLinkedin />,
             url: "https://www.linkedin.com/in/auroradream04/",
-        },
+        },*/
         {
             icon: <FaSquareXTwitter />,
-            url: "https://x.com/aurora_dream04",
+            url: "https://x.com/Dev_Huang1",
         },
         {
             icon: <FaDiscord />,
-            url: "https://discord.gg/pwYGjDebkF",
+            url: "https://discord.com/invite/xCeAQ3RS",
         },
         {
             icon: <IoIosMail />,
-            url: "mailto:alvin@studioaurora.io",
+            url: "mailto:evan.huang000@proton.me",
         },
     ],
     sections: {
@@ -66,53 +66,35 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-                Hi! I'm Alvin, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+                Hello everyone! I am <strong>Evan Huang</strong>, a <strong>front-end developer</strong> who started my programming journey in <strong>2023</strong>. I master <strong>HTML, CSS, JavaScript and NextJS</strong>
             </p>
             <p>
-                When I’m not coding, you’ll find me playing <strong>Dota 2</strong>, cooking up new recipes, or streaming on <strong>Kick</strong>. Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
+                When I'm not coding, you can find me on social media <strong>X</strong>, <strong>Threads</strong>, and <strong>Instagram</strong> Let's connect - I'd love to help with your next project!
             </p>
         `,
         experiences: [
             {
-                company: "Studio Aurora",
-                position: "Founder | Lead Developer",
+                company: "Tech-Art Studio",
+                position: "Founder | Developer | Marketing",
                 duration: "2024 - Present",
-                description: "Founded a web development agency focused on delivering high-quality websites and custom digital solutions. Lead the end-to-end development process, from client consultation and project planning to design implementation and deployment. Skilled in building scalable web apps, e-commerce platforms, and custom API integrations using modern frameworks like Next.js. Oversee a team of developers and coordinate projects to ensure timely delivery and client satisfaction."
+                description: "Founded a community-driven web development studio focused on delivering high-quality websites and custom digital solutions. Open to participation from developers of all skill levels, the studio embraces collaboration throughout the development process, from project ideation and planning to design implementation and deployment. "
             },
-            {
-                company: "Pingu Dev Inc.",
-                position: "Full-stack Engineer",
-                duration: "2023 - 2024",
-                description: "Developed various websites including streaming platforms, landing pages, and news sites using Next.js, WordPress, and Maccms. Built and managed APIs with Express.js, and leveraged web scraping to curate and generate content. Introduced automation processes to streamline workflows and built desktop applications with Electron for internal use."
-            }
         ],
         projects: [
             {
-                title: "Alvin Chang | Portfolio Website",
-                description: "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
+                title: "One Captcha",
+                description: "A captcha application created with static JavaScript, free, secure, privacy-preserving, end-to-end encryption, no third-party tracking, multi-language, and fast.",
                 logo: "/logox.png",
-                repoLink: "https://github.com/auroradream04/aurora-portfolio",
+                repoLink: "https://github.com/Dev-Huang1/One-Captcha",
                 technologies: [
                     {
-                        icon: <RiNextjsFill className="text-[#FFF]" />,
-                        name: "Next.js"
-                    },
-                    {
-                        icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-                        name: "Tailwind CSS"
-                    },
-                    {
-                        icon: <SiShadcnui className="text-[#FFF]" />,
-                        name: "Shadcn/UI"
-                    },
-                    {
-                        icon: <SiTypescript className="text-[#3178C6]" />,
-                        name: "TypeScript"
+                        icon: <SiJavascript className="text-[#FFF]" />,
+                        name: "JavaScript"
                     },
                 ],
-                link: "https://alvinchang.dev"
+                link: "https://onecaptcha.us.kg"
             },
-            {
+            /*{
                 title: "Genzify AI",
                 description: "GenZify is an AI-powered tool I developed to transform everyday text into trendy Gen Z-style language. I managed both the front-end design and back-end development, integrating AI functionality for smooth and creative rephrasings. The platform delivers a fun, engaging experience, perfect for anyone looking to add a modern twist to their communication. This project highlights my skills in blending AI with user-centric design to create a playful, interactive web tool.",
                 logo: "/genzify-logo.png",
@@ -210,7 +192,7 @@ export const siteConfig = {
                     }
                 ],
                 link: "https://www.ynct55.com"
-            },
+            }*/
         ]
     }
 };
