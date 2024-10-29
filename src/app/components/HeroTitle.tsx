@@ -25,7 +25,7 @@ export default function HeroTitle() {
                     width={28}
                     height={28}
                 />
-                <h1>Hey there, I'm Alvin! 👋</h1>
+                <h1>Hi, I'm Evan! 👋</h1>
             </motion.div>
             <motion.h1
                 variants={isMobile ? slideInFromTop(0.6) : slideInFromLeft(0.6)}
@@ -33,8 +33,9 @@ export default function HeroTitle() {
                 animate="visible"
                 className="text-4xl sm:text-5xl lg:text-5xl 2xl:text-6xl font-bold text-center lg:text-start"
             >
-                Delivering
-                <span className="gradient-accent"> the best </span>
+                I'm a
+                <span className="gradient-accent"> Front-End  </span>
+
             </motion.h1>
             <motion.h1
                 variants={isMobile ? slideInFromTop(0.7) : slideInFromLeft(0.7)}
@@ -42,7 +43,7 @@ export default function HeroTitle() {
                 animate="visible"
                 className="text-4xl sm:text-5xl lg:text-5xl 2xl:text-6xl font-bold text-center lg:text-start mb-2"
             >
-                in design and code.
+                Developer
             </motion.h1>
         </div>
     );
