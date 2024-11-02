@@ -4,7 +4,7 @@ import Link from "next/link";
 import { siteConfig } from "../config";
 import { useState, useEffect, useRef } from "react";
 import { slideInFromLeft } from "../utils/motion";
-import MotionDiv from "./MotionDiv";
+import MotionTag from "./MotionTag";
 
 export default function TableOfContents() {
     const [activeSection, setActiveSection] = useState<string | null>(null);
@@ -62,7 +62,8 @@ export default function TableOfContents() {
     };
 
     return (
-        <MotionDiv
+        <MotionTag
+            tag="div"
             variants={slideInFromLeft(0.9)}
             initial="hidden"
             animate="visible"
@@ -96,6 +97,6 @@ export default function TableOfContents() {
                     </Link>
                 </div>
             ))}
-        </MotionDiv>
+        </MotionTag>
     );
 }
