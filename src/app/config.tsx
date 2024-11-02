@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaSquareXTwitter, FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { RiNextjsFill, RiTailwindCssFill, RiOpenaiFill, RiWordpressFill } from "react-icons/ri";
-import { SiTypescript, SiShadcnui, SiPrisma, SiWoocommerce, SiReact, SiJavascript } from "react-icons/si";
+import { SiTypescript, SiShadcnui, SiPrisma, SiWoocommerce, SiReact, SiJavascript, SiHtml5, SiCss3, SiNodedotjs, SiFramer } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 
 export const siteConfig = {
@@ -130,10 +130,6 @@ technologies: {
                 {
                     name: "Framer Motion",
                     icon: <SiFramer className="text-[#0055FF]" />,
-                },
-                {
-                    name: "React Native",
-                    icon: <TbBrandReactNative className="text-[#61DAFB]" />,
                 },
             ],
         },
