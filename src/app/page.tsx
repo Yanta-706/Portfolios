@@ -10,8 +10,6 @@ import TableOfContents from "./components/TableOfContents";
 import HireMeButton from "./components/HireMeButton";
 import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
-import { fetchBlogs } from "./utils/fetchWordpress";
-import HomepageBlogs from "./components/HomepageBlogs";
 
 export default async function Home() {
     const jsonLd = {
@@ -21,7 +19,6 @@ export default async function Home() {
         url: siteConfig.url,
         keywords: siteConfig.keywords,
     };
-    const blogs = await fetchBlogs();
 
     return (
         <main className="w-full min-h-screen px-4 sm:px-20 xl:px-40 2xl:px-80">
@@ -50,7 +47,6 @@ export default async function Home() {
                     <AboutMe />
                     <Experiences />
                     <Projects />
-                    <HomepageBlogs blogs={blogs} />
                     <ContactForm />
                     <Footer />
                     <SocialIcons />
