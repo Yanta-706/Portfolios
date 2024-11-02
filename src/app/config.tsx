@@ -103,7 +103,7 @@ technologies: {
             main: [
         {
             name: "Next.js",
-            icon: <SiNextdotjs className="text-[#000]" />,
+            icon: <SiNextdotjs className="text-[#fff]" />,
             description: "A React framework for production",
         },
         {
@@ -128,14 +128,14 @@ technologies: {
         },
         {
             name: "GitHub",
-            icon: <SiGithub className="text-[#181717]" />,
+            icon: <SiGithub className="text-[#fff]" />,
             description: "A version control platform",
         },
     ],
     other: [
         {
             name: "Vercel",
-            icon: <SiVercel className="text-[#000]" />,
+            icon: <SiVercel className="text-[#fff]" />,
         },
         {
             name: "Visual Studio Code",
@@ -151,7 +151,7 @@ technologies: {
         },
         {
             name: "Markdown",
-            icon: <SiMarkdown className="text-[#000]" />,
+            icon: <SiMarkdown className="text-[#fff]" />,
         },
     ],
         },
