@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { siteConfig } from "../config";
 import { slideInFromLeft, slideInFromTop } from "../utils/motion";
-import MotionDiv from "./MotionDiv";
+import MotionTag from "./MotionTag";
 
 type TProps = {
     isSticky?: boolean;
@@ -16,7 +16,8 @@ export default function SocialIcons({ isSticky, noAnimate }: TProps) {
         isMobile = window.matchMedia("(max-width: 1024px)").matches;
     }
     return (
-        <MotionDiv
+        <MotionTag
+            tag="div"
             variants={isMobile ? slideInFromTop(1) : slideInFromLeft(1)}
             initial={noAnimate ? "visible" : "hidden"}
             animate="visible"
@@ -35,6 +36,6 @@ export default function SocialIcons({ isSticky, noAnimate }: TProps) {
                     </li>
                 ))}
             </ul>
-        </MotionDiv>
+        </MotionTag>
     );
 }
