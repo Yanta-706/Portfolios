@@ -92,7 +92,7 @@ export const siteConfig = {
             {
                 title: "One Captcha",
                 description: "A captcha application created with static JavaScript, free, secure, privacy-preserving, end-to-end encryption, no third-party tracking, multi-language, and fast.",
-                logo: "https://oneacptcha.us.kg/assets/logo/logo.svg",
+                logo: "https://onecaptcha.us.kg/assets/logo/logo.svg",
                 repoLink: "https://github.com/Dev-Huang1/One-Captcha",
                 technologies: [
                     {
