@@ -61,7 +61,7 @@ export default function HireMeButton({ isSticky }: TProps) {
                         className="text-white text-[10px] lg:text-[11px] border border-[rgba(255,255,255,0.3)] font-bold tracking-widest bg-background
              px-4 py-2 rounded-md w-full h-full relative z-10"
                     >
-                        CONTACT ME
+                        CONTACT
                     </button>
                 </div>
             </Link>
