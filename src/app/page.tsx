@@ -10,6 +10,7 @@ import TableOfContents from "./components/TableOfContents";
 import HireMeButton from "./components/HireMeButton";
 import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
+import Technologies from "./components/Technologies";
 
 export default async function Home() {
     const jsonLd = {
@@ -47,6 +48,7 @@ export default async function Home() {
                     <AboutMe />
                     <Experiences />
                     <Projects />
+                    <Technologies />
                     <ContactForm />
                     <Footer />
                     <SocialIcons />
