@@ -98,7 +98,7 @@ export const siteConfig = {
                 repoLink: "https://github.com/Dev-Huang1/One-Captcha",
                 technologies: [
                     {
-                        icon: <SiJavascript className="text-[#FFF]" />,
+                        icon: <SiJavascript className="text-[#61DAFB]" />,
                         name: "JavaScript"
                     },
                     {
