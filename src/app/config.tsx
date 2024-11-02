@@ -2,7 +2,19 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaSquareXTwitter, FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { RiNextjsFill, RiTailwindCssFill, RiOpenaiFill, RiWordpressFill } from "react-icons/ri";
-import { SiTypescript, SiShadcnui, SiPrisma, SiWoocommerce, SiReact, SiJavascript, SiHtml5, SiCss3, SiNodedotjs, SiFramer } from "react-icons/si";
+import { 
+    SiNextdotjs, 
+    SiReact, 
+    SiNodedotjs, 
+    SiPython, 
+    SiJavascript, 
+    SiGithub, 
+    SiVercel, 
+    SiVisualstudiocode, 
+    SiWindows, 
+    SiCloudflare, 
+    SiMarkdown 
+} from 'react-icons/si';
 import { GrGraphQl } from "react-icons/gr";
 
 export const siteConfig = {
@@ -89,49 +101,59 @@ export const siteConfig = {
         ],
 technologies: {
             main: [
-                {
-                    name: "Next.js",
-                    icon: <RiNextjsFill className="text-[#FFF]" />,
-                    description: "A React framework",
-                },
-                {
-                    name: "React",
-                    icon: <SiReact className="text-[#61DAFB]" />,
-                    description: "A JavaScript UI library",
-                },
-                {
-                    name: "JavaScript",
-                    icon: <SiJavascript className="text-[#3178C6]" />,
-                    description: "Javascript",
-                },
-                {
-                    name: "GitHub",
-                    icon: <FaGithub className="text-[#F05032]" />,
-                    description: "A version control system",
-                },
-            ],
-            other: [
-                {
-                    name: "HTML5",
-                    icon: <SiHtml5 className="text-[#E34F26]" />,
-                },
-                {
-                    name: "CSS",
-                    icon: <SiCss3 className="text-[#009df7]" />,
-                },
-                {
-                    name: "JavaScript",
-                    icon: <SiJavascript className="text-[#F7DF1E]" />,
-                },
-                {
-                    name: "NodeJS",
-                    icon: <SiNodedotjs className="text-[#339933]" />,
-                },
-                {
-                    name: "Framer Motion",
-                    icon: <SiFramer className="text-[#0055FF]" />,
-                },
-            ],
+        {
+            name: "Next.js",
+            icon: <SiNextdotjs className="text-[#000]" />,
+            description: "A React framework for production",
+        },
+        {
+            name: "React.js",
+            icon: <SiReact className="text-[#61DAFB]" />,
+            description: "A JavaScript UI library",
+        },
+        {
+            name: "Node.js",
+            icon: <SiNodedotjs className="text-[#339933]" />,
+            description: "A JavaScript runtime",
+        },
+        {
+            name: "Python",
+            icon: <SiPython className="text-[#3776AB]" />,
+            description: "A high-level programming language",
+        },
+        {
+            name: "JavaScript",
+            icon: <SiJavascript className="text-[#F7DF1E]" />,
+            description: "The programming language of the web",
+        },
+        {
+            name: "GitHub",
+            icon: <SiGithub className="text-[#181717]" />,
+            description: "A version control platform",
+        },
+    ],
+    other: [
+        {
+            name: "Vercel",
+            icon: <SiVercel className="text-[#000]" />,
+        },
+        {
+            name: "Visual Studio Code",
+            icon: <SiVisualstudiocode className="text-[#007ACC]" />,
+        },
+        {
+            name: "Windows",
+            icon: <SiWindows className="text-[#00A4EF]" />,
+        },
+        {
+            name: "Cloudflare",
+            icon: <SiCloudflare className="text-[#F48120]" />,
+        },
+        {
+            name: "Markdown",
+            icon: <SiMarkdown className="text-[#000]" />,
+        },
+    ],
         },
     }
 };
