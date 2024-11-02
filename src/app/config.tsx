@@ -13,7 +13,9 @@ import {
     SiVisualstudiocode, 
     SiWindows, 
     SiCloudflare, 
-    SiMarkdown 
+    SiMarkdown, 
+    SiHtml5,
+    SiCss3,
 } from 'react-icons/si';
 import { GrGraphQl } from "react-icons/gr";
 
@@ -98,6 +100,18 @@ export const siteConfig = {
                     {
                         icon: <SiJavascript className="text-[#FFF]" />,
                         name: "JavaScript"
+                    },
+                    {
+                        icon: <SiHtml5 className="text-[#E34F26]" />,
+                        name: "HTML"
+                    },
+                    {
+                        icon: <SiCss3 className="text-[#1572B6]" />,
+                        name: "CSS"
+                    },
+                    {
+                        icon: <SiVercel className="text-[#fff]" />,
+                        name: "Vercel"
                     },
                 ],
                 link: "https://onecaptcha.us.kg"
