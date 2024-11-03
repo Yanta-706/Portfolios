@@ -43,12 +43,13 @@ export default function Technologies() {
                     </div>
                 ) : (
                     <>
-                        <div className="w-full grid grid-cols-7 gap-2">
+                        <div className="w-full grid grid-cols-6 sm:grid-cols-7 md:grid-cols-9 lg:grid-cols-7 gap-2">
                             {allTechnologies.map((technology, index) => {
                                 return (
                                     <TechnologyItem
                                         key={index}
                                         technology={technology}
+                                        className={index === 27 ? 'md:hidden lg:flex' : ''}
                                     />
                                 );
                             })}
