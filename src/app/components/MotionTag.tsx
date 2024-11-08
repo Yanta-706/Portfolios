@@ -37,18 +37,7 @@ export default function MotionTag({
 
     return (
         <>
-            {tag === "div" ? (
-                <motion.div
-                    ref={ref}
-                    variants={variants}
-                    initial={!isMobile ? initial : "visible"}
-                    animate={isInView ? animate : initial}
-                    transition={transition}
-                    className={className}
-                >
-                    {children}
-                </motion.div>
-            ) : (
+            {tag === "h1" ? (
                 <motion.h1
                     ref={ref}
                     variants={variants}
@@ -59,6 +48,17 @@ export default function MotionTag({
                 >
                     {children}
                 </motion.h1>
+            ) : (
+                <motion.div
+                    ref={ref}
+                    variants={variants}
+                    initial={!isMobile ? initial : "visible"}
+                    animate={isInView ? animate : initial}
+                    transition={transition}
+                    className={className}
+                >
+                    {children}
+                </motion.div>
             )}
         </>
     );
