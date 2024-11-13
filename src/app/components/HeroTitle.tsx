@@ -26,7 +26,7 @@ export default function HeroTitle() {
                     width={28}
                     height={28}
                 />
-                <h1>Hey there, I'm Alvin! 👋</h1>
+                <h1>Hi, I'm Evan! 👋</h1>
             </MotionTag>
             <MotionTag
                 tag="h1"
@@ -35,8 +35,8 @@ export default function HeroTitle() {
                 animate="visible"
                 className="text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-5xl 1640:text-[3.25rem] font-bold text-center lg:text-start"
             >
-                Delivering
-                <span className="gradient-accent"> the best </span>
+                I'm a
+                <span className="gradient-accent"> Front-End </span>
             </MotionTag>
             <MotionTag
                 tag="h1"
@@ -45,7 +45,7 @@ export default function HeroTitle() {
                 animate="visible"
                 className="text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-5xl 1640:text-[3.25rem] font-bold text-center lg:text-start mb-2"
             >
-                in design and code.
+                Developer
             </MotionTag>
         </div>
     );
