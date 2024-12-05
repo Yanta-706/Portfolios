@@ -26,7 +26,7 @@ export default function HeroTitle() {
                     width={28}
                     height={28}
                 />
-                <h1>Hi, I'm Evan! 👋</h1>
+                <h1> This is for 未来 </h1>
             </MotionTag>
             <MotionTag
                 tag="h1"
@@ -36,7 +36,7 @@ export default function HeroTitle() {
                 className="text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-5xl 1640:text-[3.25rem] font-bold text-center lg:text-start"
             >
                 I'm a
-                <span className="gradient-accent"> Front-End </span>
+                <span className="gradient-accent"> Front-End </span>  
             </MotionTag>
             <MotionTag
                 tag="h1"
