@@ -20,27 +20,27 @@ import {
 import { GrGraphQl } from "react-icons/gr";
 
 export const siteConfig = {
-    name: "Evan Huang",
-    title: "Evan Huang | Front-End Developer",
-    email: "evan.huang000@proton.me",
-    alias: "Evan",
-    description: "Hello 👋 My name is Evan Huang I am an engineer specializing in web development, mastering HTML, CSS, JavaScript, Next.js and Python. I have strong programming and design skills, and currently focus on front-end development. My passion is to create outstanding digital experiences, and user experience is my biggest concern. As for the future development direction, I look forward to continuous learning and growth.",
+    name: "未来",
+    title: "Future | Front-End Developer",
+    email: "MeiKnotQ@proton.me",
+    alias: "Future",
+    description: " I am Future,an engineer specializing in web development, mastering HTML, CSS, JavaScript, Next.js and Python. I have strong programming and design skills, and currently focus on front-end development. My passion is to create outstanding digital experiences, and user experience is my biggest concern. As for the future development direction, I look forward to continuous learning and growth.",
     keywords: "Evan Huang, front-end developer, web development, Next.js, Python, JavaScript",
-    url: "https://tech-huang.us.kg",
+    url: "https://Futures.us.kg",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
-        "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
-        "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
+        "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",  
+        "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",    
     ],
     titles: ["Front-End Developer", "NextJS Developer", "Python Developer"],
     socialLinks: [
         {
             icon: <FaGithub />,
-            url: "https://github.com/Dev-Huang1",
+            url: "https://github.com/Yanta-706",
         },
         {
             icon: <FaSquareXTwitter />,
-            url: "https://x.com/Dev_Huang1",
+            url: "https://x.com/MeiKnotQ",
         },
         {
             icon: <FaDiscord />,
@@ -48,7 +48,7 @@ export const siteConfig = {
         },
         {
             icon: <IoIosMail />,
-            url: "mailto:evan.huang000@proton.me",
+            url: "mailto:MeiKnotQ@proton.me",
         },
     ],
     sections: {
@@ -76,7 +76,7 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-                Hello everyone! I am <strong>Evan Huang</strong>, a <strong>front-end developer</strong> who started my programming journey in <strong>2023</strong>. I master <strong>Python, JavaScript and NextJS</strong>
+                Hello everyone! I am <strong>Future</strong>, a <strong>front-end developer</strong> who started my programming journey in <strong>2020</strong>. I master <strong>Python, JavaScript and NextJS</strong>
             </p>
             <p>
                 When I'm not coding, you can find me on social media <strong>X</strong>, <strong>Threads</strong>, and <strong>Instagram</strong> Let's connect - I'd love to help with your next project!
@@ -84,9 +84,9 @@ export const siteConfig = {
         `,
         experiences: [
             {
-                company: "Tech-Art Studio",
+                company: "Future For You",
                 position: "Founder | Developer | Marketing",
-                duration: "2024 - Present",
+                duration: "2020 - Past",
                 description: "Founded a community-driven web development studio focused on delivering high-quality websites and custom digital solutions. Open to participation from developers of all skill levels, the studio embraces collaboration throughout the development process, from project ideation and planning to design implementation and deployment. "
             },
         ],
