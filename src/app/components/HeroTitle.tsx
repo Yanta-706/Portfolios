@@ -26,7 +26,7 @@ export default function HeroTitle() {
                     width={28}
                     height={28}
                 />
-                <h1> This is for 未来 </h1>
+                <h1>Crush!</h1>
             </MotionTag>
             <MotionTag
                 tag="h1"
