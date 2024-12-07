@@ -22,13 +22,13 @@ import { GrGraphQl } from "react-icons/gr";
 export const siteConfig = {
     name: "未来",
     title: "Future | Front-End Developer",
-    email: "MeiKnotQ@proton.me",
+    email: "2424113648@qq.com",
     alias: "Future",
     description: " I am Future,an engineer specializing in web development, mastering HTML, CSS, JavaScript, Next.js and Python. I have strong programming and design skills, and currently focus on front-end development. My passion is to create outstanding digital experiences, and user experience is my biggest concern. As for the future development direction, I look forward to continuous learning and growth.",
-    keywords: "Evan Huang, front-end developer, web development, Next.js, Python, JavaScript",
+    keywords: " Future, front-end developer, web development, Next.js, Python, JavaScript",
     url: "https://Futures.us.kg",
     taglines: [
-        "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
+        "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",    
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",  
         "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",    
     ],
@@ -48,7 +48,7 @@ export const siteConfig = {
         },
         {
             icon: <IoIosMail />,
-            url: "mailto:MeiKnotQ@proton.me",
+            url: "mailto:2424113648@qq.com",
         },
     ],
     sections: {
